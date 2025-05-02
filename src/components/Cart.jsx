@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-// import { removeCart } from '../slices/cartSlice'
+import { removeCart } from '../features/cartSlice'
 
 const Cart = () => {
 
@@ -27,11 +27,11 @@ const Cart = () => {
                                    </div>
                                    <div className="p-5 d-flex">
                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{ele.qtn}</h5>
-                                       {/* <button
+                                       <button
                                            onClick={() => dispatch(removeCart(ele.id))}
                                        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
                                            remove
-                                       </button> */}
+                                       </button>
                                    </div>
                                </div>
    

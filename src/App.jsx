@@ -5,7 +5,7 @@ import Login from './components/Login'
 import Products from './components/Products'
 import Navbar from './components/Navbar'
 import Cart from './components/Cart'
-import { showCart } from './slices/cartSlice'
+import { showCart } from './features/cartSlice'
 
 
 function App() {

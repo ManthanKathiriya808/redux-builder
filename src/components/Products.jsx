@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { addCart } from '../slices/cartSlice'
+import { addCart } from '../features/cartSlice'
 
 const Products = () => {
 
@@ -64,9 +64,9 @@ const dispatch = useDispatch()
                         <div key={ele.id} className="shadow rounded p-2 w-[300px]">
                             
 
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                            <div className="max-w-sm bg-white border h-100 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg h-[200px] w-[200px]" src={ele.image} alt="" />
+                                    <img className="rounded-t-lg h-[200px] w-[100%]" src={ele.image} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">

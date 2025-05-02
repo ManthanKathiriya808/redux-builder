@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { login } from '../slices/authSlice'
+import { login } from '../features/authSlice'
 
 const Login = () => {
 

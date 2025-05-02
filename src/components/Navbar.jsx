@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { logout } from '../slices/authSlice'
-import { showCart } from '../slices/cartSlice'
+import { logout } from '../features/authSlice'
+import { showCart } from '../features/cartSlice'
 
 const Navbar = () => {
 
@@ -18,7 +18,7 @@ const Navbar = () => {
 
                 <button onClick={()=> dispatch(showCart())} className='py-1 px-4 rounded-2xl border hover:bg-slate-50'>Cart: {cartLength} 👜</button>
 
-                <button onClick={()=> dispatch(logout())} className='py-1 px-4 bg-red-600 rounded-2xl border hover:bg-red-700'>logout</button>
+                <button onClick={()=> dispatch(logout())} className='py-1 px-4 bg-green-600 rounded-2xl border hover:bg-red-700'>logout</button>
                     </div>
             </div>
         </div>
