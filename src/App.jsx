@@ -9,7 +9,7 @@ import { showCart } from './features/cartSlice'
 
 
 function App() {
-// sdfasdffasdg
+// 
   let auth = useSelector(state=> state.auth.auth)
   let cart = useSelector(state=> state.cart.cartList)
   let showCart = useSelector(state=> state.cart.showCart)
