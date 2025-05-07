@@ -8,6 +8,7 @@ import Cart from './components/Cart'
 import { showCart } from './features/cartSlice'
 
 
+
 function App() {
 // 
   let auth = useSelector(state=> state.auth.auth)
@@ -22,13 +23,14 @@ function App() {
 
     <>
     
+    
     { auth &&  <Navbar/>}
     { !auth &&  <Login/>}
     { auth &&  <Products/>}
 
 { showCart && <Cart/>}
     
-
+  <div>Hello Manthan</div>
        
         
     </>
