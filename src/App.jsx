@@ -31,11 +31,11 @@ function App() {
 { showCart && <Cart/>}
 
 
+ 
 
-
-  <div>Hello world</div>
+  {/* <div>Hello world</div> */}
     
-  <div>Hello Manthan</div>
+  {/* <div>Hello Manthan</div> */}
 
        
         
