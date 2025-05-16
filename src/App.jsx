@@ -36,9 +36,7 @@ function App() {
 
   {/* <div>Hello world</div> */}
 
-
-
-  <div>Hello Manthan</div> 
+  {/* <div>Hello Manthan</div>  */}
 
        
         
